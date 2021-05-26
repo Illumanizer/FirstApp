@@ -1,0 +1,36 @@
+@media only screen and (max-width: 984px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .firstsection,
+    .secondsection,
+    .thirdsection,
+    .fourthsection,
+    .box-main {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .navbar {
+        height: 475px;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.7s ease-out;
+    }
+    .rightNav {
+        width: 50%;
+        text-align: center;
+    }
+    .burger {
+        display: block;
+    }
+    .h-nav-resp {
+        height: 72px;
+    }
+    .v-class-resp {
+        opacity: 0;
+    }
+    .firstsection {
+        height: 100%;
+    }
+}
